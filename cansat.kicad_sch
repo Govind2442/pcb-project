@@ -1144,6 +1144,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "New_Library:lora_module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.556 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "lora_module_1_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 10.795 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin input line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name "M0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 5.08 270)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -11.43 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 5.08 270)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -11.43 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 5.08 270)
+					(length 2.54)
+					(name "AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1485,6 +1692,18 @@
 		(uuid 16e2b8ca-f7b0-4b82-812c-49fda79df639)
 	)
 	(rectangle
+		(start 17.272 38.862)
+		(end 62.23 110.998)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3aaf5179-941b-41ec-99c1-6cdfa9fa14d3)
+	)
+	(rectangle
 		(start 166.878 46.99)
 		(end 201.676 103.124)
 		(stroke
@@ -1540,6 +1759,17 @@
 		)
 		(uuid "487ef705-3499-462a-b3f0-7b6daa3fc1c8")
 	)
+	(text "LORA Module"
+		(exclude_from_sim no)
+		(at 38.608 43.688 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ee17724-8ee7-4323-8785-9e2575c41e59")
+	)
 	(text "MPU-6050"
 		(exclude_from_sim no)
 		(at 225.552 50.292 0)
@@ -1594,6 +1824,10 @@
 		(uuid "10f54748-f995-4cee-bcb2-d9619368d8db")
 	)
 	(no_connect
+		(at 41.91 81.28)
+		(uuid "17d83292-cfc4-497d-8aff-f8315dec5716")
+	)
+	(no_connect
 		(at 118.11 63.5)
 		(uuid "1d8dbf59-a9fe-452d-83d8-8de879e7bac1")
 	)
@@ -1634,12 +1868,24 @@
 		(uuid "802fdd7d-1c5b-48ac-9361-13bf1c22ec45")
 	)
 	(no_connect
+		(at 33.02 64.77)
+		(uuid "864abe79-d27c-4aec-b65f-b8c7ee6637fc")
+	)
+	(no_connect
 		(at 143.51 93.98)
 		(uuid "8650d4d0-743c-49df-b784-c4aa7f0f2bb1")
 	)
 	(no_connect
+		(at 38.1 64.77)
+		(uuid "97f6d813-7de7-4f2c-98e8-695feafe1c0e")
+	)
+	(no_connect
 		(at 118.11 81.28)
 		(uuid "99620a0f-24f3-4cb2-9f7c-da12ddb106ff")
+	)
+	(no_connect
+		(at 43.18 64.77)
+		(uuid "9c3dd095-6ad8-43cb-83fc-4f93b4e9ccb9")
 	)
 	(no_connect
 		(at 118.11 83.82)
@@ -1666,8 +1912,16 @@
 		(uuid "c0a09d65-c1ea-4573-a447-4c97a6bf3c9a")
 	)
 	(no_connect
+		(at 35.56 64.77)
+		(uuid "c3f04fa6-4d24-4f23-856e-965af02a85b4")
+	)
+	(no_connect
 		(at 133.35 50.8)
 		(uuid "c7c7eaaf-6e57-4705-93b5-941b03fbdc23")
+	)
+	(no_connect
+		(at 40.64 64.77)
+		(uuid "c9954cbd-b214-48bb-bf3b-0c89cb43e87a")
 	)
 	(no_connect
 		(at 143.51 81.28)
@@ -1728,6 +1982,16 @@
 			(type default)
 		)
 		(uuid "25d6cf4a-403c-4127-a129-1f9b082f2a65")
+	)
+	(wire
+		(pts
+			(xy 34.29 81.28) (xy 34.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26482715-bb3a-4d17-ae2a-a173bf65d1fc")
 	)
 	(wire
 		(pts
@@ -1798,6 +2062,16 @@
 			(type default)
 		)
 		(uuid "4a62248e-e450-4da9-8099-ffdfe71be7b6")
+	)
+	(wire
+		(pts
+			(xy 38.1 81.28) (xy 38.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534c00b2-14ce-4be3-825a-081eb6ba84f2")
 	)
 	(wire
 		(pts
@@ -2047,7 +2321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GovindLibrary:MPU-6050"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -2552,7 +2826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GovindLibrary:BMP280"
 			(at 83.82 74.93 0)
 			(effects
 				(font
@@ -2832,7 +3106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GovindLibrary:NEO-6m"
 			(at 186.69 77.47 0)
 			(effects
 				(font
@@ -2878,6 +3152,160 @@
 			(project ""
 				(path "/73f61ab3-cb83-470f-9de0-2b648e2eecbe"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 38.1 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7042087-29c0-4947-9d68-ec82b5806ac2")
+		(property "Reference" "#PWR09"
+			(at 38.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "761e3818-131c-4820-a572-f4e9e36be741")
+		)
+		(instances
+			(project ""
+				(path "/73f61ab3-cb83-470f-9de0-2b648e2eecbe"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:lora_module")
+		(at 34.29 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d09758d6-7cc7-493f-ba36-d82841f14714")
+		(property "Reference" "U4"
+			(at 45.72 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 45.72 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GovindLibrary:Lora module"
+			(at 34.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "118f38c0-64dd-4461-a83a-c89152e635ad")
+		)
+		(pin "5"
+			(uuid "5d148355-f003-46fc-ac67-86b813c0b390")
+		)
+		(pin "2"
+			(uuid "bc3e7116-225c-41a4-8ce9-c4b8feaff470")
+		)
+		(pin "7"
+			(uuid "23ed6f50-4483-4857-a5db-f4473a6e3718")
+		)
+		(pin "4"
+			(uuid "5f7ea433-3c0d-40ce-831a-d0a6983c1435")
+		)
+		(pin "8"
+			(uuid "ce7a8e89-bb8c-44ba-8ab4-caf450382c3c")
+		)
+		(pin "6"
+			(uuid "a7422f8a-d4e3-4b60-846c-ddd5a265fda1")
+		)
+		(pin "1"
+			(uuid "bc021f84-ef6f-49b8-aff3-5a2af97ed45f")
+		)
+		(instances
+			(project ""
+				(path "/73f61ab3-cb83-470f-9de0-2b648e2eecbe"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2944,6 +3372,72 @@
 			(project ""
 				(path "/73f61ab3-cb83-470f-9de0-2b648e2eecbe"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f012e829-d65d-4e32-a455-a23c8cada377")
+		(property "Reference" "#PWR010"
+			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7aca69c-bd1a-4f85-84c2-94e1b248673b")
+		)
+		(instances
+			(project ""
+				(path "/73f61ab3-cb83-470f-9de0-2b648e2eecbe"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
